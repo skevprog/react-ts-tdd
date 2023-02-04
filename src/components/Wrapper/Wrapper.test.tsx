@@ -1,8 +1,9 @@
 import { describe, expect, it, } from 'vitest';
 import { render, screen } from '@testing-library/react';
 
-import Avatar from './Avatar';
+
 import Wrapper from './Wrapper';
+import Avatar from '../Avatar/Avatar';
 
 
 describe('Wrapper', () => {
